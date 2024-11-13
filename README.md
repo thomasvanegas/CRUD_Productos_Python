@@ -15,6 +15,6 @@ Esta colección de operaciones CRUD es una aplicación web construida usando her
 
 Thomas Camilo Vanegas Acevedo - ID:000287437
 
-![Prueba](https://github.com/thomasvanegas/CRUD_Productos_Python/tree/main/imgs/demo_aplicacion.png)
+![Prueba](./imgs/demo_aplicacion.png)
 
 ## ¿Cómo ejecutar el proyecto?
