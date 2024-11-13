@@ -1,41 +1,20 @@
-# CRUD App 
+# PRODUCTOS CRUD | TELEMÁTICA 
 
-Welcome to the README for the CRUD (Create, Read, Update, Delete) web application!
+Bienvenido a la aplicación que permite realizar operaciones CRUD para un sistema de productos.
 
-## Table of Contents
+## Tabla de Contenidos (índice)
 
-- [Overview](#overview)
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Resumen](#resumen)
+- [Autor](#autor)
 
-## Overview
+## Resumen
 
-This CRUD app is a simple web application built using HTML, CSS, and JavaScript. It allows users to perform basic CRUD operations on a dataset, such as creating new records, reading existing records, updating records, and deleting records. It can be used as a template for building more complex web applications.
+Esta colección de operaciones CRUD es una aplicación web construida usando herramientas tales como HTML, CSS, JavaScript, Python, Flask, Docker, AWS y Terraform. La aplicación permite a los usuarios realizar las operaciones CRUD para un sistema de inventario de productos, tales como crear nuevos productos, leer los productos existentes, actualizar productos, and borrar productos. Actualmente, la aplicación web no cuenta con sistema de persistencia de datos (Base de datos), sin embargo, en el repositorio en (https://github.com/thomasvanegas/CRUD_Productos_Python/tree/main/backend/docker) se encuentra un archivo de cómo crear un contenedor de docker para usar PostgreSQL como la Base de Datos.
 
-## Demo
+## Autor
 
-A live demo of the app is available at [Demo Link](https://main--magnificent-malasada-216f42.netlify.app/).
+Thomas Camilo Vanegas Acevedo - ID:000287437
 
-![App Demo](insert_screenshot_here.png)
+![Prueba](https://github.com/thomasvanegas/CRUD_Productos_Python/tree/main/imgs/demo_aplicacion.png)
 
-## Features
-
-- **Create:** Add new records to the dataset.
-- **Read:** View and search existing records.
-- **Update:** Modify the information of existing records.
-- **Delete:** Remove records from the dataset.
-- **Responsive:** The app is designed to work on various screen sizes.
-
-## Installation
-
-To run this app locally, follow these steps:
-
-1. Clone this repository to your local machine using `git clone`.
-
-```bash
-git clonehttps://github.com/HarishVinayagamoorthy/CRUD-APP
-
+## ¿Cómo ejecutar el proyecto?
