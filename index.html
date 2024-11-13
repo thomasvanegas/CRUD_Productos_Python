@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- IMPORTACION DE ESTILOS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Inicio | Productos CRUD | Telemática</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./imgs/favicon.png" type="image/png">
+</head>
+
+<body>
+    <h1>CRUD de Productos - Telemática</h1>
+    <table>
+      <tr>
+        <td>
+          <form autocomplete="off" onsubmit="onFormSubmit()">
+            <div>
+              <label for="productCode">Código del Producto</label>
+              <input
+                type="text"
+                name="productCode"
+                id="productCode"
+                placeholder="Ingresa el código del producto aquí..."
+              />
+            </div>
+            <div>
+              <label for="product">Nombre del Producto</label>
+              <input
+                type="text"
+                name="product"
+                id="product"
+                placeholder="Ingresa el nombre del producto aquí..."
+              />
+            </div>
+            <div>
+              <label for="qty">Cantidad del Producto</label>
+              <input
+                type="number"
+                name="qty"
+                id="qty"
+                placeholder="Ingresa la cantidad de unidades del producto..."
+              />
+            </div>
+            <div>
+              <label for="perPrice">Precio</label>
+              <input
+                type="number"
+                name="perPrice"
+                id="perPrice"
+                placeholder="Ingresa el precio del producto aquí..."
+              />
+            </div>
+            <div class="form_action--button">
+              <input type="submit" value="Submit" />
+              <input type="reset" value="Reset" />
+            </div>
+          </form>
+          <td>
+            <table class="list" id="storeList">
+                <thead>
+                    <tr>
+                        <th>Código del Producto</th>
+                        <th>Nombre del Producto</th>
+                        <th>Cantidad del Producto</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+          </td>
+        </td>
+      </tr>
+    </table>
+</body>
+
+<!-- IMPORTACIÓN DEL ARCHIVO JS -->>
+<script src="./script.js"></script>
+
+</html>

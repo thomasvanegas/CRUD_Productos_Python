@@ -1,0 +1,27 @@
+- https://www.youtube.com/watch?v=hVrKX2RtigQ -> Instalación de postgresql usando docker
+
+- https://hub.docker.com/_/postgres -> Documentación de postgres en docker
+
+- docker pull postgres -> Descargar la imagen de postgres
+
+- docker run --name postgresql_container -e POSTGRES_USER=postgresadmin -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_DB=dynamisdb -p 5432:5432 -d postgres -> Crear y ejecutar el contenedor
+
+- docker exec -it postgresql_container bash -> Conectar al contenedor
+
+- psql -U postgresadmin -d dynamisdb -> Conectar a la base de datos (postgresadmin es el usuario y dynamisdb es el nombre de la base de datos)
+
+- docker exec -it postgresql_container psql -U postgresadmin -d dynamisdb -> Conectar a la base de datos desde el contenedor
+
+
+
+--- algunas operaciones con docker ---
+
+- docker ps -> Ver los contenedores en ejecución
+- docker ps -a -> Ver todos los contenedores
+
+- docker stop postgresql_container -> Detener el contenedor
+
+- docker rm postgresql_container -> Eliminar el contenedor
+
+- NOTA: Siempre que se quiera conectar a la base de datos desde el contenedor, se debe ejecutar el comando docker exec -it postgresql_container psql -U postgresadmin -d dynamisdb
+- NOTA: Siempre primero antes de eliminar el contenedor, se debe detener el contenedor con el comando docker stop postgresql_container

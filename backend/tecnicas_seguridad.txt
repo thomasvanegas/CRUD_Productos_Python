@@ -1,0 +1,22 @@
+https://steghide.sourceforge.net/download.php -> Steghide es una herramienta de software libre para ocultar información en archivos de imagen.
+
+https://www.youtube.com/watch?v=Z1RJmh_OqeA -> Video de youtube explicando como usar steghide.
+
+Memoria USB bootleable -> rufus, balenaEtcher. -> Instalar parrot security os (ultima version).
+
+Herramientas de Escaneo -> Nmap, Metasploit, Netcat, Wireshark, John the Ripper, Hydra, Metasploit, Ethercap, dirb, dd, volatility, scarpel.
+mfsvenom -> Metasploit Framework. 
+autopsy -> Herramienta para forense.
+
+En linux los hardware se manejan como archivos.
+
+Cuando se borra un archivo, solo se borra el puntero al archivo, no el archivo en si.
+
+sudo mount /dev/sda1/mnt -> Monta el dispositivo sda1 en el directorio /mnt.
+
+dd if=/dev/zero of=/dev/sda1 bs=1k count=1024 -> Limpia el dispositivo sda1.
+
+copiar un sistema operativo a un dispositivo -> dd if=/path/to/iso of=/dev/sdX bs=4M status=progress && sync.
+
+Scalpel -> Herramienta para forense.
+foremost -> Herramienta para forense.

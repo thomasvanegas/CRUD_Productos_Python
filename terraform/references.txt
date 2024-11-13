@@ -1,0 +1,14 @@
+https://medium.com/@yahiaqous/how-to-build-a-crud-api-using-python-flask-and-sqlalchemy-orm-with-postgresql-7869517f8930
+
+https://www.youtube.com/watch?v=Z1RJmh_OqeA
+
+https://stackoverflow.com/questions/10591086/shell-script-headers-bin-sh-vs-bin-csh
+
+chmod 777 install.sh -> Dar permisos de ejecución al script
+sudo ./install.sh -> Ejecutar el script
+
+https://dev.to/francescoxx/build-a-crud-rest-api-in-python-using-flask-sqlalchemy-postgres-docker-28lo
+
+jenkins vs terraform
+
+ADDS -> Active directory domain services

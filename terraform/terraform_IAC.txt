@@ -1,0 +1,5 @@
+1. Ingresar a la consola de AWS (Una consola y otra GUI) -> No casarse con una sola nube
+2. https://developer.hashicorp.com/terraform/install?product_intent=terraform -> Instalar Terraform
+3. https://developer.hashicorp.com/terraform/tutorials/aws-get-started -> Tutorial de AWS
+4. https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build -> Tutorial de AWS
+5. https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-create -> Tutorial de AWS
