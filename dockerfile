@@ -1,7 +1,8 @@
 FROM ubuntu:22.04
-RUN apt-get update && apt-get install -y python3 python3-pip
-COPY . /app
+WORKDIR /var/www/html/
+RUN apt-get update && apt-get install -y python3 python3-pip apache2 git
+RUN rm index.html
 WORKDIR /app
+RUN git clone https://github.com/thomasvanegas/CRUD_Productos_Python.git
 RUN pip3 install -r requirements.txt
-EXPOSE 80
-CMD ["python3", "main.py"]
+RUN mv ./CRUD_Productos_Python/* .
