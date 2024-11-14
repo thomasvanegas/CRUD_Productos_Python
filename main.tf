@@ -36,7 +36,7 @@ resource "aws_instance" "web_server" {
 
   provisioner "file" {
     source      = "./install.sh"
-    destination = "/home/ec2-user/install.sh"
+    destination = "/home/ubuntu/install.sh"
     connection {
       type        = "ssh"
       user        = "ubuntu"
@@ -47,8 +47,8 @@ resource "aws_instance" "web_server" {
 
   provisioner "remote-exec" {
     inline = [
-      "chmod +x /home/ec2-user/install.sh",
-      "/home/ec2-user/install.sh"
+      "chmod +x /home/ubuntu/install.sh",
+      "/home/ubuntu/install.sh"
     ]
     connection {
       type        = "ssh"
